@@ -60,7 +60,7 @@
         <table class="profile-table">
             <tr>
                 <td style="width: 150px;">
-                    <img src="D:\make no changes tk\WhatsApp Image 2026-04-03 at 10.12.53 AM.jpeg" alt="Tanmay Sharma" class="profile-img">
+                    <img src="WhatsApp Image 2026-04-03 at 10.12.53 AM.jpeg" alt="Tanmay Sharma" class="profile-img">
                 </td>
                 <td>
                     <h2>About Me</h2>
