@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay Sharma - Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h1 { margin: 0; color: #2c3e50; }
+        .contact-info { margin: 10px 0; font-size: 0.9em; }
+        .section { margin-bottom: 25px; background: white; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 5px; color: #e67e22; margin-top: 0; }
+        
+        
+        .profile-table { width: 100%; border: none; }
+        .profile-table td { border: none; vertical-align: middle; }
+        .profile-img { 
+            width: 120px; 
+            height: 120px; 
+            border-radius: 50%; 
+            border: 3px solid #2c3e50;
+            object-fit: cover;
+        }
+
+        table { width: 100%; border-collapse: collapse; }
+        th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; }
+        th { background-color: #f4f4f4; width: 30%; }
+        .project-title { font-weight: bold; color: #2980b9; }
+        .skills-list { display: flex; flex-wrap: wrap; list-style: none; padding: 0; }
+        .skills-list li { background: #ecf0f1; margin: 5px; padding: 5px 12px; border-radius: 15px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tanmay Sharma</h1>
+        <div class="contact-info">
+            Email: <strong>tanmaysharma9099@gmail.com</strong> | 
+            Mobile: <strong>9389377145</strong> | 
+            GitHub: <strong>tanmay9099</strong>
+        </div>
+    </header>
+
+    <div class="section">
+        <table class="profile-table">
+            <tr>
+                <td style="width: 150px;">
+                    <img src="D:\make no changes tk\WhatsApp Image 2026-04-03 at 10.12.53 AM.jpeg" alt="Tanmay Sharma" class="profile-img">
+                </td>
+                <td>
+                    <h2>About Me</h2>
+                    <p>
+                        I am a passionate Computer Science student with a strong foundation in software development and problem-solving. 
+                        I enjoy building efficient web applications and exploring emerging technologies like IoT. 
+                        Currently, I am focusing on honing my skills in full-stack development and cloud computing to create impactful digital solutions.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section" id="education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <td>Bachelor of Technology in Computer Science and Engineering</td>
+            </tr>
+            <tr>
+                <th>Institution</th>
+                <td>Babu Banarsi Das Institute of Technology and Management, Lucknow</td>
+            </tr>
+            <tr>
+                <th>Intermediate</th>
+                <td>Stella Maris Inter College, Lucknow</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+            <li>Java</li><li>Python</li><li>C++</li><li>C</li>
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>SQL</li>
+        </ul>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <div style="margin-bottom: 15px;">
+            <div class="project-title">Library Management System</div>
+            <p>A system designed to streamline library workflows, including digital cataloging and user transaction records.</p>
+        </div>
+        <div>
+            <div class="project-title">IoT Based Smart Irrigation System</div>
+            <p>An automated solution using sensors to monitor soil moisture levels and optimize water distribution for crops.</p>
+        </div>
+    </div>
+
+</body>
+</html>
